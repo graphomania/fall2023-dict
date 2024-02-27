@@ -10,7 +10,7 @@
 #include <unordered_set>
 
 
-const std::string DEFAULT_SEPS = " ,.!?&()[]:;\n\r\\";
+const std::string DEFAULT_SEPS = " ,.!?&()[]:;\n\r\\/\t\"'";
 
 class DictCorrector {
     std::unordered_set<std::string> dictionary_;
